@@ -34,7 +34,7 @@ npm run lint
 
 ## Jest
 
-Jest is already setup. Any `*.test.ts` files will be run when testing. For organization, this template includes a `__tests__` folder for you to put all your tests into.
+Jest is already setup. Any `*.test.ts` files will be run when testing.
 
 To run the tests:
 
