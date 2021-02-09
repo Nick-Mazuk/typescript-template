@@ -1,0 +1,23 @@
+name: Node continuous integration
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!dependabot/*'
+
+jobs:
+  test-push:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [10, 12, 14]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run build
