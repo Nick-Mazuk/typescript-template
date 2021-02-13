@@ -66,7 +66,7 @@ See these GitHub Actions:
 
 If you're creating an npm package, this template can automatically deploy your package to npm on Mondays and Fridays. That way, the npm package can always be up-to-date (including with updated dependencies) even without any maintenance by you.
 
-To do so, just follow the instruction in the `.github/workflows/deploy.yml` file.
+To do so, just follow the two instructions in the `.github/workflows/deploy.yml` file add and your npm deployment secret as `NPM_TOKEN` in your repo's settings.
 
 ## Publish to npm
 

@@ -22,6 +22,7 @@ jobs:
       - run: npm run build
   deploy:
     runs-on: ubuntu-latest
+    if: "false" # remove this line
     needs:
       - test-deploy
     steps:
