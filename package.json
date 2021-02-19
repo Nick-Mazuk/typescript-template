@@ -27,7 +27,7 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
-        "@babel/core": "^7.12.16",
+        "@babel/core": "^7.12.17",
         "@babel/preset-env": "^7.12.17",
         "@babel/preset-typescript": "^7.12.16",
         "@nick-mazuk/eslint-config": "^0.7.1",
