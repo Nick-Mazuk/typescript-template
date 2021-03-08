@@ -10,7 +10,6 @@
         "test:watch": "npm run test -- --watch --passWithNoTests",
         "build": "tsc",
         "prepublishOnly": "npm run lint && npm run test",
-        "preversion": "npm run lint",
         "postversion": "git push && git push --tags"
     },
     "jest": {
