@@ -1,10 +1,6 @@
-name: Node continuous integration
+name: Continuous integration
 
-on:
-  push:
-    branches:
-      - '**'
-      - '!dependabot/*'
+on: [push, pull_request]
 
 jobs:
   test-push:
