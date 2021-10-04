@@ -1471,7 +1471,7 @@ packages:
       eslint-plugin-deprecation: 1.2.1_eslint@7.32.0+typescript@4.4.3
       eslint-plugin-eslint-comments: 3.2.0_eslint@7.32.0
       eslint-plugin-import: 2.24.2_eslint@7.32.0
-      eslint-plugin-jest: 24.5.0_a2243cdaf36ff6cc2d89c77e252ccc5a
+      eslint-plugin-jest: 24.5.2_a2243cdaf36ff6cc2d89c77e252ccc5a
       eslint-plugin-jsx-a11y: 6.4.1_eslint@7.32.0
       eslint-plugin-no-secrets: 0.8.9_eslint@7.32.0
       eslint-plugin-prettier: 4.0.0_6e975bd57c7acf028c1a9ddbbf60c898
@@ -2566,8 +2566,8 @@ packages:
       tsconfig-paths: 3.11.0
     dev: true
 
-  /eslint-plugin-jest/24.5.0_a2243cdaf36ff6cc2d89c77e252ccc5a:
-    resolution: {integrity: sha512-Cm+XdX7Nms2UXGRnivHFVcM3ZmlKheHvc9VD78iZLO1XcqB59WbVjrMSiesCbHDlToxWjMJDiJMgc1CzFE13Vg==}
+  /eslint-plugin-jest/24.5.2_a2243cdaf36ff6cc2d89c77e252ccc5a:
+    resolution: {integrity: sha512-lrI3sGAyZi513RRmP08sIW241Ti/zMnn/6wbE4ZBhb3M2pJ9ztaZMnSKSKKBUfotVdwqU8W1KtD8ao2/FR8DIg==}
     engines: {node: '>=10'}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>= 4'
@@ -2663,7 +2663,7 @@ packages:
       minimatch: 3.0.4
       object.entries: 1.1.5
       object.fromentries: 2.0.5
-      object.hasown: 1.0.0
+      object.hasown: 1.1.0
       object.values: 1.1.4
       prop-types: 15.7.2
       resolve: 2.0.0-next.3
@@ -4268,8 +4268,8 @@ packages:
       es-abstract: 1.19.1
     dev: true
 
-  /object.hasown/1.0.0:
-    resolution: {integrity: sha512-qYMF2CLIjxxLGleeM0jrcB4kiv3loGVAjKQKvH8pSU/i2VcRRvUNmxbD+nEMmrXRfORhuVJuH8OtSYCZoue3zA==}
+  /object.hasown/1.1.0:
+    resolution: {integrity: sha512-MhjYRfj3GBlhSkDHo6QmvgjRLXQ2zndabdf3nX0yTyZK9rPfxb6uRpAac8HXNLy1GpqWtZ81Qh4v3uOls2sRAg==}
     dependencies:
       define-properties: 1.1.3
       es-abstract: 1.19.1
