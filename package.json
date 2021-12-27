@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/typescript-template",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "",
     "scripts": {
         "eslint": "eslint '**/*.{js,ts,tsx}' --quiet --fix",
@@ -32,7 +32,7 @@
         "@types/jest": "^27.0.0",
         "@types/node": "^16.0.0",
         "babel-jest": "^27.0.2",
-        "eslint": "^7.27.0",
+        "eslint": "^8.0.0",
         "jest": "^27.0.4"
     },
     "dependencies": {
