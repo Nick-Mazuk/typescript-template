@@ -1,6 +1,6 @@
 {
     "name": "@nick-mazuk/typescript-template",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "",
     "scripts": {
         "eslint": "eslint '**/*.{js,ts,tsx}' --quiet --fix",
@@ -25,9 +25,9 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
-        "@babel/core": "^7.14.3",
-        "@babel/preset-env": "^7.14.4",
-        "@babel/preset-typescript": "^7.13.0",
+        "@babel/core": "^8.0.0",
+        "@babel/preset-env": "^8.0.0",
+        "@babel/preset-typescript": "^8.0.0",
         "@nick-mazuk/eslint-config": "^0.8.12",
         "@types/jest": "^27.0.0",
         "@types/node": "^16.0.0",
